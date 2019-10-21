@@ -23,7 +23,7 @@ class School
   end
   
   def sort
-    self.roster.reduce({})do |sorted|
+    self.roster.reduce({})do |sorted_roster, grade|
   end
   
 end
