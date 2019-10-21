@@ -23,7 +23,7 @@ class School
   end
   
   def sort
-    self.roster.each{|grade, student|}
+    self.roster.each{|grade, students|}
   end
   
 end
