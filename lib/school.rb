@@ -25,6 +25,7 @@ class School
   def sort
     self.roster.reduce({})do |sorted_roster, (grade, students)|
       sorted_roster[grade] = students.sort
+      
     end
   end
   
